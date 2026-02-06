@@ -1,0 +1,23 @@
+{
+  "name": "waf-bot-analysis-demo",
+  "version": "1.0.0",
+  "description": "AWS WAF Bot Control + CloudFront Demo for Log Analysis",
+  "main": "bin/app.js",
+  "scripts": {
+    "build": "tsc",
+    "cdk": "cdk",
+    "deploy": "cdk deploy --all --require-approval never",
+    "destroy": "cdk destroy --all --force",
+    "synth": "cdk synth"
+  },
+  "keywords": ["aws", "waf", "cloudfront", "bot-control", "demo"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^25.2.1",
+    "aws-cdk-lib": "^2.237.1",
+    "constructs": "^10.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

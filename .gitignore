@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# CDK build output
+cdk.out/
+
+# TypeScript build output
+*.js
+*.d.ts
+!bin/app.ts
+!lib/*.ts
+
+# Package lock (regenerated on npm install)
+package-lock.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+.ruff_cache/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local

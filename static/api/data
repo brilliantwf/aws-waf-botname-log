@@ -1,0 +1,1 @@
+{"status": "ok", "service": "waf-bot-demo", "timestamp": "dynamic", "endpoints": ["/", "/api/data", "/login", "/search"]}
