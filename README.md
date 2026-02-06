@@ -163,6 +163,8 @@ fields @timestamp,
 | limit 50
 ```
 
+![alt text](image.png)
+
 ### AI Bot 专项查询
 
 ```sql
